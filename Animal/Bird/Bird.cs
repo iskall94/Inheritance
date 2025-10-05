@@ -5,6 +5,7 @@ namespace Inheritance.Animal.Bird
 {
     internal class Bird : Animal
     {
+        // Use a string for type of bird instead of name since most birds doesn't have any actual names like pets, just to make it a bit more clearer.
         public string BirdType { get; set; }
         public string FeatherColour { get; set; }
         public bool CanFly { get; set; } = true;
